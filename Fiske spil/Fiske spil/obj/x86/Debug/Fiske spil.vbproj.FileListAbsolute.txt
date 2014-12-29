@@ -1,0 +1,9 @@
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\bin\Debug\Fiske spil.exe
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\bin\Debug\Fiske spil.pdb
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\bin\Debug\Fiske spil.xml
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\obj\x86\Debug\Fiske_spil.StartForm.resources
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\obj\x86\Debug\Fiske_spil.Resources.resources
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\obj\x86\Debug\Fiske spil.vbproj.GenerateResource.Cache
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\obj\x86\Debug\Fiske spil.exe
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\obj\x86\Debug\Fiske spil.xml
+C:\Users\Samuel\Documents\GitHub\Fiske-Spil\Fiske spil\Fiske spil\obj\x86\Debug\Fiske spil.pdb

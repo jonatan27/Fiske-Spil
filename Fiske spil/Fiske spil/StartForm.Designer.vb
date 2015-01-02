@@ -22,11 +22,31 @@ Partial Class StartForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Fisk = New System.Windows.Forms.PictureBox()
         Me.Akvarie = New System.Windows.Forms.PictureBox()
+        Me.GroupBox1.SuspendLayout()
         CType(Me.Fisk, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Akvarie, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(165, 19)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(346, 23)
+        Me.ProgressBar1.TabIndex = 2
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.ProgressBar1)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(517, 71)
+        Me.GroupBox1.TabIndex = 3
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Status"
         '
         'Fisk
         '
@@ -41,10 +61,11 @@ Partial Class StartForm
         '
         'Akvarie
         '
+        Me.Akvarie.BackColor = System.Drawing.Color.Transparent
         Me.Akvarie.Image = Global.Fiske_spil.My.Resources.Resources.Starter
-        Me.Akvarie.Location = New System.Drawing.Point(-1, 175)
+        Me.Akvarie.Location = New System.Drawing.Point(0, 171)
         Me.Akvarie.Name = "Akvarie"
-        Me.Akvarie.Size = New System.Drawing.Size(387, 229)
+        Me.Akvarie.Size = New System.Drawing.Size(550, 317)
         Me.Akvarie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Akvarie.TabIndex = 0
         Me.Akvarie.TabStop = False
@@ -53,12 +74,14 @@ Partial Class StartForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(380, 403)
+        Me.ClientSize = New System.Drawing.Size(542, 488)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Fisk)
         Me.Controls.Add(Me.Akvarie)
         Me.Name = "StartForm"
-        Me.Text = "Form1"
+        Me.Text = "Fiske spil!"
         Me.TransparencyKey = System.Drawing.Color.DarkOrange
+        Me.GroupBox1.ResumeLayout(False)
         CType(Me.Fisk, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Akvarie, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -66,5 +89,7 @@ Partial Class StartForm
     End Sub
     Friend WithEvents Akvarie As System.Windows.Forms.PictureBox
     Friend WithEvents Fisk As System.Windows.Forms.PictureBox
+    Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
 
 End Class
